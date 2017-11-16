@@ -32,7 +32,7 @@ from chatbot.corpus.opensubsdata import OpensubsData
 from chatbot.corpus.scotusdata import ScotusData
 from chatbot.corpus.ubuntudata import UbuntuData
 from chatbot.corpus.lightweightdata import LightweightData
-
+from chatbot.corpus.kvretdata import KvretData
 
 class Batch:
     """Struct containing batches info
@@ -55,6 +55,7 @@ class TextData:
         ('scotus', ScotusData),
         ('ubuntu', UbuntuData),
         ('lightweight', LightweightData),
+        ('kvret', KvretData),
     ])
 
     @staticmethod
